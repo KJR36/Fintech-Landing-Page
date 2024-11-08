@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+width: 100%;
+background-position: center;
+background-color: aliceblue;
+background-size: cover;
+height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(23, 120, 120);
+    font-size: 35px;
+    font-family: Arial;
+   float: left;
+   padding-left: 40px;
+   padding-top: 10px;
+
+}
+.menu{
+    width: 800px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 42px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-out;
+}
+.navbar1{
+    width:1200px;
+    height: 50px;
+    margin: auto;
+
+}
+.search{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+}
+.srch{
+    justify-content: center;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(6, 85, 85);
+    border: 2px solidrgb(6, 85, 85);
+    margin-top:13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    float: right;
+}
