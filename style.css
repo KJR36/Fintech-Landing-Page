@@ -19,7 +19,7 @@ height: 100vh;
     width: 200px;
     float: left;
     height: 70px;
-}
+    }
 .logo{
     color: rgb(23, 120, 120);
     font-size: 35px;
@@ -55,17 +55,26 @@ ul li a{
 }
 .navbar1{
     width:1200px;
-    height: 50px;
+    height: 30px;
     margin: auto;
+    border-radius: 5px;
+    border: 2px;
+    background: rgb(207, 209, 209);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
 .search{
-    width: 300px;
+    width: 1500px;
     height: 50px;
     margin: auto;
 }
 .srch{
+    width: 600px;
+    margin-left: 300px;
     justify-content: center;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .btn{
@@ -74,9 +83,11 @@ ul li a{
     background: rgb(6, 85, 85);
     border: 2px solidrgb(6, 85, 85);
     margin-top:13px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     border-top-right-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     float: right;
 }
+
+
