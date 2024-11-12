@@ -1,13 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .main {
-width: 100%;
+width: 80%;
 background-position: center;
-background-color: aliceblue;
+background-color: rgb(255, 255, 255);
 background-size: cover;
-height: 100vh;
+height: 420vh;
 }
 .navbar{
     width: 1200px;
@@ -80,6 +81,9 @@ ul li a{
     margin-left: 50px;
     justify-content: center;
     text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: none;
 
 }
 
@@ -151,12 +155,13 @@ padding-bottom: 30px;
     width: 100px;
     height: 40px;
     background: rgb(18, 144, 144);
-    border: 10px solidrgb(6, 85, 85);
     margin-top:13px;
     color: rgb(255, 255, 255);
     font-size: 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-style: none;
+    margin-left: -5px;
     
 }.icons1{
     width: 600px;
@@ -166,8 +171,8 @@ padding-bottom: 30px;
 
 }
 .content{
-    width: 1200px;
-    height: 600px;
+    width: 1100px;
+    height:450px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -199,8 +204,8 @@ padding-bottom: 30px;
 }
 .content .par1{
     position: absolute;
-    bottom: 10px;
-    right: 300px;
+    margin-left: 700px;
+    margin-top: 50px;
 }
 .content h3{
     margin-top: 25px;
@@ -237,7 +242,7 @@ padding-bottom: 30px;
     width: 50px;
     height: 40px;
     position: absolute;
-    margin-left: 850px;
+    margin-left: 800px;
     top: 820px;
 
 }
@@ -258,7 +263,7 @@ padding-bottom: 30px;
     font-family: Arial;
     letter-spacing: 1px;
     position: absolute;
-    margin-left: 400px;
+    margin-left: 370px;
     top:900px ;
 
 }
@@ -269,6 +274,396 @@ padding-bottom: 30px;
     font-family: Arial;
     letter-spacing: 1px;
     position: absolute;
-    margin-left: 830px;
+    margin-left: 775px;
     top: 900px;
+}
+.main .par5{
+    margin-left: 470px;
+    margin-top: 30px;
+    
+}
+.main .par6{
+    margin-left: 570px;
+    margin-top: 20px;
+    color: rgb(23, 159, 159);
+
+}
+.main .content1{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    background-color: rgb(250, 255, 255);
+    margin-left: 230px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.main .content2{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    float: right;
+    background-color:rgb(250, 255, 255);
+    margin-left: 630px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.main .content3{
+    width: 750px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(250, 255, 255);
+    margin-left: 230px;
+    margin-top: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.main .content1 h1{
+    font-size: 50px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(23, 159, 159);
+
+}
+.main .content1 h2{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 20px;
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+.main .content2 h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+.main .content2 .imagec{
+    width: 175px;
+    height: 50px;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 75px;
+    
+
+}
+.main .content3 h2{
+    margin-top: 40px;
+    margin-left: 20px;
+    
+
+}
+.main .content3 h3{
+    margin-left: 20px;
+    font-size: 15px;
+    
+}
+.main .content3 .imaged{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    float: right;
+    bottom: 120px;
+}
+.main .content4{
+    width: 100%;
+    height: 370px;
+    background-color:rgba(1, 32, 42, 0.964);
+    margin-top: 500px;
+}
+.main .content4 .content5{
+    width: 270px;
+    height: 150px;
+    background-color: rgba(1, 32, 42, 0.964);
+    position: absolute;
+    margin-top: 170px;
+    float: left;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.main .content4 .content6{
+    width: 270px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(1, 32, 42, 0.964);
+    margin-top: 170px;
+    margin-left: 400px;
+    border-radius: 10px;
+    
+    
+}
+.main .content4 .content7{
+    width: 270px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(1, 32, 42, 0.964);
+    margin-top: 170px;
+    margin-left: 700px;
+    border-radius: 10px;
+}
+.main .content4 .par7{
+    color: rgb(23, 159, 159);
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.main .content4 h1{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.main .content5 h1{
+    font-size: 75px;
+    position: absolute;
+    bottom: 60px;
+    left: -100px;
+}
+.main .content6 h1{
+    font-size: 75px;
+    position: absolute;
+    bottom: 60px;
+    left: -100px;
+}
+.main .content7 h1{
+    font-size: 75px;
+    position: absolute;
+    bottom: 60px;
+    left: -100px;
+
+    
+}
+.main .content5 .par8{
+    font-size: 15px;
+    position: relative;
+    margin-top: 50px;
+    color: rgb(167, 165, 165);
+    padding-left: 5px;
+}
+.main .content6 .par9{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 52px;
+    color: rgb(167, 165, 165);
+    margin-left: 5px;
+}
+.main .content7 .par10{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 52px;
+    color: rgb(167, 165, 165);
+    margin-left: 5px;
+    
+
+}
+.main .content5 h1{
+    color: white;
+}
+.main .content6 h1{
+    color: white;
+}
+.main .content7 h1{
+    color: white;
+}
+.main .par11{
+    color: rgb(23, 159, 159);
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 500px;
+}.main .c1{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 370px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+.main .c2{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 390px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+.main .c3{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 400px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45px;
+}
+.main .par12{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 470px;
+}
+.main .c4{
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 400px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45px;
+}
+.main .par13{
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 470px;
+    
+    
+    }
+.main .c5{
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 400px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45px;
+}
+.main .par14{
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 470px;
+
+}
+.main .par15{
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 600px;
+}
+.main .content8{
+    width: 370px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    background-color: rgb(201, 204, 204);
+    margin-left: 230px;
+    margin-top: 700px;
+    border-radius: 10px;
+    
+}
+.main .content9{
+    width: 370px;
+    height: 200px;
+    position: absolute;
+    float: right;
+    background-color:rgb(77, 135, 135);
+    margin-left: 630px;
+    margin-top: 700px;
+    border-radius: 10px;
+}
+.main .c6{
+   margin-top: 20px;
+   margin-left: 20px;
+
+}
+.main .c7{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main .c8{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.main .c9{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.main .content10{
+    width: 80%;
+    height: 270px;
+    background-color:rgba(1, 32, 42, 0.964);
+    margin-top: 950px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.main .content10 .btn2{
+    width: 140px;
+    height: 45px;
+    margin-left: 550px;
+    margin-top: 130px;
+    border-radius: 10px;
+    background-color: rgb(77, 135, 135);
+    color: white;
+    border-width: 0px;
+}
+.main .content10 .btn3{
+    width: 140px;
+    height: 45px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(77, 135, 135);
+    color: white;
+    border-width: 0px;
+}
+.main .content10 .par16{
+    color: rgb(23, 159, 159);
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main .content10 .c10{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+.main .content10 .c11{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.content11{
+    max-width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    padding: 70px 0;
+    width: 80%;
+    border-bottom: 10px
+
+}
+.footer-col{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    list-style: none;
+}
+.social-links{
+    margin-left: 120px;
+    justify-content: center
+}
+.social-links .par17{
+    margin-left: px;
+}
+.copy{
+    margin-left: 200px;
+    margin-top: 50px;
 }
